@@ -2,7 +2,7 @@
 Coursera Capstone Project - The Battle of Neighborhoods
 ## 1. Introduction
 As a part of the final IBM Capstone Project, we get a feel of what data scientists go through in real life. Objectives of the final assignments were to define a business problem, look for data in the web and, use Foursquare location data to solve or execute the problem.
-### Problem Statement : 
+### Problem Statement : Staying Safe while Travelling in a Foreign Country
 ### Background
 So a little about myself, is that I **LOVE** to travel. However, travelling to another country requires so much planning. There are hundreds, or even thousands of different sites that I can do my research on to know about the most worth it accommodations, the must try food and sightseeing places. If I want to find out about all these places, well, I will at least need months of preparation. However, with my mind all occupied on where to go, I might just miss out on one of the most important information. 
 
