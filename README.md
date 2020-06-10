@@ -13,7 +13,7 @@ This solution would be for *travellers* who wants to stay safe while having fun 
 ### Data Description
 In this section I will describe the data that is going to be used to solve the problem. I would be using **Toronto, Canada** as the example of the foreign country these target audience would be going. They would be travelling to popular sites and restaurants.
 The following data would be what I am going to use:
-1.	Query the Foursquare website for the top sites in Toronto
+1.	Neighborhood in Toronto to find the top few sites
 2.	Use the Foursquare API to get geographical data on the top sites
 3.	User Foursquare API to get top restaurant data nearest to the top sites.
 4.	Use Toronto Police Service Public Safety Data Portal to get crime data
