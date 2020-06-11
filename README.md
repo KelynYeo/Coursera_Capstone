@@ -162,7 +162,7 @@ In order to protect the privacy of crime victims, addresses are shown at the nei
 
 Not all of the attributes are required so on the following data was imported:
 
-1. Unique
+1. Event Unique ID
 2. Date of Occurance
 3. Offence
 4. Occurrence year
@@ -184,4 +184,48 @@ This data was then processed as follows:
 2. Drop missing data
 3. Sort data by months
 
+### Data Analysis and Visualisation
+After sorting out the data, let's now look at the top 3 most common crime in Toronto, Canada!
+(pic 11)
+To better visualise the data and understand it, let us view it chart form. In the chart below, I have decided to use non-stacked charts to give a better visualisation on how the data is like. 
+(Pic 12)
+It can be seen that even though the top three crimes are *Assult, Break & Enter(B&E) and Assult with weapon(AW)*, **Assult** still takes the lead in showing that it has way more cases than the rest by occupying a bigger area in the chart.
+(pic 13) 
+Looking at the top 3 crimes it is clearly visible that the occurances of Assults rise greatly during daylight hours and particularly dip only between the hours of 4AM to 6AM. While, Assult with weapon, has little to no fluctuation showing that the time does not matter that much to those that commit it.
+(pic 14)
+From the cases per day, it is obvious that more crime happened at the start on the month compared to the other days. Generally, the top 3 crimes looks like are fluctuation in the same motion despite the point that Assults have way more cases.
 
+Looking at the Crime data for a single month, for example, *I am going Toronto in MAY*, let's look at how the top 3 crimes are spreaded out. It can be seen that various red and blue dots are spreaded out, showing many Assults and B&E respectively. While a few green dots appear around the area with a higher concentration of red and blue dots.
+(Picture 15)
+Creating the heat map, reinforces the cluster chart where the crime occurs. Generally, it seems like the crime are mostly all spread out, other than a few areas nearer to the aiport and the border that shows a greater density of crime happening shown in orange-yellow.
+(pic 16)
+### Further Visualisation
+Using the results from my Toronto Top Common Venues to input in the crime data heat map, let's see if I would need to take precaution when I head out!
+(pic 17)
+Visiting this venue appears to be a safe option with very little crime recorded in the immediate vicinity. 
+
+### Conclusion and Discussion
+The idea for the Capstone Project is to show that when driven by venue and location data from FourSquare, backed up with open source crime data, that it is possible to present the cautious and nervous traveller with a list of attractions to visit supplementd with a graphics showing the occurance of crime in the region of the venue.
+A high level approach is as follows:
+
+&#9745;The travellers decides on a city location 
+
+&#9745;Wikipedia scraping of data for postal codes in Toronto
+
+&#9745;From this list is augmented with additional grographical data
+
+&#9745;Using this additional geographical data finding the top nearby restaurents are selects
+
+&#9745;The historical crime within a predetermined distance of all venues are obtained
+
+&#9745;A map is presented to the to the traveller showing the selected venues and crime statistics of the area.
+
+??The future prediction of a crime happening near or around the selected top sites is also presented to the user
+
+I have to declare that the prediction of crime rate happening around the area was clear as the data given by the Toronto police department shows a 4 year data set. The data set shows that in the 4 years, for the month of may, it is quite clear that which time/day/month has a dipped and rise in crimes. There were no ambiguity in the data that shows a flat line. Hence, taking the data as it is, I assume that, if everything else stays the same, the crime data in Toronto would not differ as much. 
+
+Although most of the goals of this project were met, there is definitely room for further improvement and development as noted below. However, the goals of the project were met and, with some more work, could easily be devleoped into a fully phledged application that could support the cautious traveller in an unknown location.
+
+Of the contributing data the Toronto Crime data is the one where more data would be good to have. Also not every city in the world makes this data freely available so that is a drawback.
+
+FourSquare proved to be a good source of data but certain data such a top picks could not be drawn from a sandbox account. 
