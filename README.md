@@ -186,22 +186,22 @@ This data was then processed as follows:
 
 ### Data Analysis and Visualisation
 After sorting out the data, let's now look at the top 3 most common crime in Toronto, Canada!
-(pic 11)
+![](11.PNG)
 To better visualise the data and understand it, let us view it chart form. In the chart below, I have decided to use non-stacked charts to give a better visualisation on how the data is like. 
-(Pic 12)
+![](12.PNG)
 It can be seen that even though the top three crimes are *Assult, Break & Enter(B&E) and Assult with weapon(AW)*, **Assult** still takes the lead in showing that it has way more cases than the rest by occupying a bigger area in the chart.
-(pic 13) 
+![](13.PNG)
 Looking at the top 3 crimes it is clearly visible that the occurances of Assults rise greatly during daylight hours and particularly dip only between the hours of 4AM to 6AM. While, Assult with weapon, has little to no fluctuation showing that the time does not matter that much to those that commit it.
-(pic 14)
+![](14.PNG)
 From the cases per day, it is obvious that more crime happened at the start on the month compared to the other days. Generally, the top 3 crimes looks like are fluctuation in the same motion despite the point that Assults have way more cases.
 
 Looking at the Crime data for a single month, for example, *I am going Toronto in MAY*, let's look at how the top 3 crimes are spreaded out. It can be seen that various red and blue dots are spreaded out, showing many Assults and B&E respectively. While a few green dots appear around the area with a higher concentration of red and blue dots.
-(Picture 15)
+![](15.PNG)
 Creating the heat map, reinforces the cluster chart where the crime occurs. Generally, it seems like the crime are mostly all spread out, other than a few areas nearer to the aiport and the border that shows a greater density of crime happening shown in orange-yellow.
-(pic 16)
+![](16.PNG)
 ### Further Visualisation
 Using the results from my Toronto Top Common Venues to input in the crime data heat map, let's see if I would need to take precaution when I head out!
-(pic 17)
+![](17.PNG)
 Visiting this venue appears to be a safe option with very little crime recorded in the immediate vicinity. 
 
 ### Conclusion and Discussion
