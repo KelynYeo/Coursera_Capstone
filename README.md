@@ -22,23 +22,23 @@ The following data would be what I am going to use:
 #### a. Scraping Toronto Postal Codes table from Wikipedia + given locations from week 3 
 Firstly, I made use of <a href="https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M">Toronto Postal Codes Table</a> to scrap the table to create a data-frame. For this, I’ve used requests and Beautifulsoup4 library to create a data-frame containing the Postal Codes, Borough and Neighborhood. Given the data in week 3, I have including the latitude and longitude into the data frame. We start as below —
 
-[picturee 1]: https://github.com/KelynYeo/Coursera_Capstone/blob/master/1.PNG "wiki"
+![](1.PNG)
 
 #### b. Filtering out the neighborhoods
 Next, I decided as a tourist, I would be more interested in areas that the borough contains the word Toronto, thus, i filter those areas out. So the areas are namely, Downtown Toronto, East Toronto, West Toronto and Centeral Toronto. 
-(insert picture 2)
+![](2.PNG)
 With the data that is left, I went ahead to use Foursquare API to retrieve information about the popular spots around these 4 borough of Toronto. The popular spots returned depends on the highest foot traffic and thus it depends on the time when the call is made. So we may get different popular venues depending upon different time of the day. The call returns a JSON file and we need to turn that into a data-frame. Here with the limit of 100 and a radius of 500, I have gotten the data of 238 unique category of venues . Below is the data-frame obtained from the JSON file that was returned by Foursquare —
-(insert picture 3)
+![](3.PNG)
 
 #### c. Finding out Popular sites near the neighborhood
 Using the data given by Foursquare API, I have used one hot encoding to find out which venues are the most common areas that the residents likes and head there often. The results are as follows--
-(Insert pic 4)
-
+![](10.PNG)
 #### d. Popular site - Cafe
 As I have decided that I'll be around the studio district, I went ahead to look at the most common venue, Cafe. With this I went on to Foursquare API again and search for the nearby Cafes in the area!
-(Insert pic 6)
+![](6.PNG)
+![](7.PNG)
 *Purple Pengiun Cafe* - well the name of the cafe definitely caught my eye! Let's check the review on it!
-(insert picture 8)
+![](8.PNG)
 Good Review!! Let's go! But wait a minute! Let's first check out the neighborhood, if it is safe and worth going or if we should be more prepared before going. 
 
 #### e. Toronto Police Service Public Data Portal
@@ -176,7 +176,7 @@ Not all of the attributes are required so on the following data was imported:
 12. Longitude
 
 A sample of the imported data is shown.
-(picture 9)
+![](9.PNG)
 
 This data was then processed as follows:
 
