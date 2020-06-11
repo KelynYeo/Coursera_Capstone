@@ -21,7 +21,9 @@ The following data would be what I am going to use:
 ### Data Prepration
 #### a. Scraping Toronto Postal Codes table from Wikipedia + given locations from week 3 
 Firstly, I made use of <a href="https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M">Toronto Postal Codes Table</a> to scrap the table to create a data-frame. For this, I’ve used requests and Beautifulsoup4 library to create a data-frame containing the Postal Codes, Borough and Neighborhood. Given the data in week 3, I have including the latitude and longitude into the data frame. We start as below —
-(insert pic 1)
+
+[picturee 1]: https://github.com/KelynYeo/Coursera_Capstone/blob/master/1.PNG "wiki"
+
 #### b. Filtering out the neighborhoods
 Next, I decided as a tourist, I would be more interested in areas that the borough contains the word Toronto, thus, i filter those areas out. So the areas are namely, Downtown Toronto, East Toronto, West Toronto and Centeral Toronto. 
 (insert picture 2)
