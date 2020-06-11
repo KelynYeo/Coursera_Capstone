@@ -45,3 +45,141 @@ This dataset can be download from the <a href="http://data.torontopolice.on.ca/"
 In order to protect the privacy of crime victims, addresses are shown at the neighborhood, Hood_ID. To learn more about the Hood_ID you can click <a href="https://www.toronto.ca/city-government/data-research-maps/neighbourhoods-communities/neighbourhood-profiles/">here</a>
 
 
+<table>
+  <tr>
+    <th>Column Name</th>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>Event Unique ID</td>
+    <td>Text</td>
+    <td>ID that is unqiue to the incident</td>
+  </tr>
+  <tr>
+    <td>Occurrence date</td>
+    <td>Date or Time</td>
+    <td>Date and time when the incident occurred. this is sometimes a best estimate.</td>
+  </tr>
+  <tr>
+    <td>Reported Date</td>
+    <td>Date or Time</td>
+    <td>When they recorded it, usually the same day.</td>
+  </tr>
+  <tr>
+    <td>Premises Type</td>
+    <td>Text</td>
+    <td>Type of location that the crime take place. Eg. home, mall</td>
+  </tr>
+    <tr>
+    <td>Offence</td>
+    <td>Text</td>
+    <td>what kind of offence they have commited</td>
+  </tr>
+    <tr>
+    <td>reportedyear</td>
+    <td>Number</td>
+    <td>Which year was the crime reported</td>
+  </tr>
+    <tr>
+    <td>reportedmonth</td>
+    <td>Text</td>
+    <td>Which month was the crime reported</td>
+  </tr>
+    <tr>
+    <td>reportedday</td>
+    <td>Number</td>
+    <td>Which day was the crime reported</td>
+  </tr>
+    <tr>
+    <td>reportedhour</td>
+    <td>Number</td>
+    <td>What time was the crime reported</td>
+  </tr>
+    <tr>
+    <td>occurrenceyear</td>
+    <td>Number</td>
+    <td>which year did the crime happened on</td>
+  </tr>
+    <tr>
+    <td>occurrencemonth</td>
+    <td>Text</td>
+    <td>Which month did the crime happened on</td>
+  </tr>
+    <tr>
+    <td>occurenceday</td>
+    <td>Number</td>
+    <td>which day did the crime happened on</td>
+  </tr>
+    <tr>
+    <td>occurrencedayofyear</td>
+    <td>Number</td>
+    <td>Out of 365 days, which day did the crime happen on</td>
+  </tr>
+    <tr>
+    <td>occurrncedayofweek</td>
+    <td>Text</td>
+    <td>Which day of the week did the crime happen on</td>
+  </tr>
+    <tr>
+    <td>occurrencehour</td>
+    <td>Number</td>
+    <td>At what hour did the crime happen on</td>
+  </tr>
+    <tr>
+    <td>MCI</td>
+    <td>Text</td>
+    <td>Type of offence did they commit</td>
+  </tr>
+    <tr>
+    <td>Division</td>
+    <td>Text</td>
+    <td>Which police division reported the crime</td>
+  </tr>
+    <tr>
+    <td>Hood_ID</td>
+    <td>Number</td>
+    <td>Which part of toronto the crime happend in</td>
+  </tr>
+    <tr>
+    <td>Neighbourhood</td>
+    <td>Text</td>
+    <td>Name of neighbourhood that the crime happened in</td>
+  </tr>
+    <tr>
+    <td>Long</td>
+    <td>Number</td>
+    <td>Longitude of area that the crime take place</td>
+  </tr>
+    <tr>
+    <td>Lat</td>
+    <td>Number</td>
+    <td>Latitude of area that the crime take place</td>
+  </tr>
+</table>
+
+Not all of the attributes are required so on the following data was imported:
+
+1. Unique
+2. Date of Occurance
+3. Offence
+4. Occurrence year
+5. Occurrence month
+6. Occurrence day
+7. Occurrence day of week
+8. Occurrence hour
+9. Hood_ID
+10. Neighbourhood
+11. Latitude
+12. Longitude
+
+A sample of the imported data is shown.
+(picture 9)
+
+This data was then processed as follows:
+
+1. Clean up the column names
+2. Drop missing data
+3. Sort data by months
+
+
